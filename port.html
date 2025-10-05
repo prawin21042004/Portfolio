@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <nav class="navbar">
+        <h1 style="color: white;">Portfolio.</h1>
+        <div class="navlink">
+            <p><a href="">Home</a></p>
+            <p><a href="">Projects</a></p>
+            <p><a href="about.html">About me</a></p>
+        </div>
+        
+    </nav>
+    <div class="toggle">
+        <i style="color: white;" class="fa-solid fa-bars" onclick="link()"></i>
+     </div>
+     <div class="navlink2">
+        <div><i class="fa-solid fa-xmark" style="color: white;margin-left: 250px;"onclick="closenav()"></i></div>
+        <p><a href="">Home</a></p>
+        <p><a href="">Projects</a></p>
+        <p><a href="about.html">About me</a></p>
+    </div>
+    <div class="Hero">
+        <div class="intro">
+            <h1 style="color: white;font-weight: bold;">Hello,it's me</h1>
+            <h1 style="color: white;font-weight: bold;">PRAWIN KUMAR</h1>
+            <h1 style="color: white;font-weight: bold;">And,I am a</h1>
+            <h1 style="color: white;font-weight: bold;">Frontend Developer</h1>
+            <p style="color: white;font-weight: bold;">"A passionate Frontend Developer<br> creating clean,responsive,
+                and user-friendly web experiences."</p>
+            <button class="cv"><a class="View" href="cv.html">View CV</a></button>
+        </div>
+        
+        <div class="photo-container">
+            <img src="port photo.jpg">
+        </div>
+    </div>
+    
+    <div class="intro2">
+        <h1 style="color: white;font-weight: bold;">Hello,it's me</h1>
+        <h1 style="color: white;font-weight: bold;">PRAWIN KUMAR</h1>
+        <h1 style="color: white;font-weight: bold;">And,I am a</h1>
+        <h1 style="color: white;font-weight: bold;">Frontend Developer</h1>
+        <p style="color: white;font-weight: bold;">"A passionate Frontend Developer<br> creating clean,responsive, and
+            user-friendly web experiences."</p>
+        <button class="cv"><a class="view2" href="cv.html">View CV</a></button>
+    </div>
+    
+
+</body>
+
+</html>
+<script>
+    var sidenavlink2=document.querySelector(".navlink2")
+    function link(){
+        sidenavlink2.style.display="block" 
+    }
+    function closenav(){
+        sidenavlink2.style.display="none"
+    }
+</script>

@@ -1,0 +1,139 @@
+body{
+    background-image:linear-gradient(to right,black,rgb(3, 112, 255));
+}
+.navbar{
+    padding-left: 10px;
+    display: flex;
+    column-gap: 1280px;
+}
+
+.navlink{
+    display: flex;
+    column-gap: 25px;
+    padding-right: 20px;
+    font-size: x-large;
+}
+.navlink a{
+    text-decoration: none;
+    color: white;
+}
+.navlink a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.intro{
+    margin-top: 100px;
+    margin-left: 400px;
+    font-size:x-large;
+}
+.cv{
+    border-radius: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    border-color: white;
+    color: white;
+    
+}
+.cv:hover{
+    background-color:rgb(3, 112, 255);
+    color: black;
+}
+.Hero{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    display: block;
+    width: 450;
+    height: 450;
+    border-style: solid;
+    border-color:transparent;
+    margin-top: 120px;
+    margin-left: 100px;
+    border-width: 5px;
+    border-radius: 50%;
+    
+}
+
+h1 {
+  color: white;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.intro2{
+    display: none;
+}
+.toggle{
+    display: none;
+}
+.navlink2{
+    display: none;
+}
+.view{
+    text-decoration: none;
+    color: white;
+}
+.view:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media (max-width: 768px){
+    .navlink{
+        display: none;
+    }
+    img{
+        margin-top: 30px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        height: 350px;
+        margin-left: 130px;
+    }
+    .intro{
+        display: none;
+    }
+    .intro2{
+        display: block;
+        margin-left: 100px;
+    }
+    .toggle {
+        display: block;
+        color: white;
+        margin-left: 500px;
+        margin-top: -50px;
+    }
+    .navlink2{
+        display: none;
+        background-color: black;
+        width: 50%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+    }
+    .navlink2 a{
+        color: white;
+        text-decoration: none;
+    }
+    .navlink2 a:hover{
+        color: white;
+        text-decoration: underline;
+    }
+    .view2{
+    text-decoration: none;
+    color: white;
+    }
+    .view2:hover{
+    text-decoration: none;
+    color: black;
+    }
+    
+    
+}

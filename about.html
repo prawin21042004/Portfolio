@@ -1,0 +1,50 @@
+<head>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 style="color: white;">Portfolio.</h1>
+        <div class="navlink">
+            <p><a href="port.html">Home</a></p>
+            <p><a href="">Projects</a></p>
+            <p><a href="about.html">About me</a></p>
+        </div>
+    </nav>
+    <div class="toggle2">
+        <i style="color: white;" class="fa-solid fa-bars" onclick="link()"></i>
+     </div>
+     <div class="navlink3">
+        <div><i class="fa-solid fa-xmark" style="color: white;margin-left: 220px;"onclick="closenav()"></i></div>
+        <p><a href="port.html">Home</a></p>
+        <p><a href="">Projects</a></p>
+        <p><a href="">About me</a></p>
+    </div>
+    <div class="page2">
+        <div class="content">
+            <h1 style="color: white;font-weight: bold;font-size: xx-large;">About Me</h1>
+            <p class="me">I’m a passionate Frontend Developer and UI/UX Designer who loves creating clean, user-friendly, and
+                visually appealing digital experiences. With a strong foundation in web technologies and a keen eye for
+                design, I enjoy transforming ideas into interactive and responsive websites that not only look great but
+                also provide seamless usability.<br>
+                I thrive at the intersection of creativity and functionality — combining design thinking with coding to craft experiences that engage users and bring value to businesses. My focus is on building intuitive interfaces, optimizing performance, and ensuring accessibility for all users.<br>
+                Always curious and eager to learn, I keep up with the latest design trends and development practices to deliver modern, innovative solutions.
+            </p>
+        </div>
+        <div class="photo-container">
+        <img src="port photo.jpg">
+        </div>
+    </div>
+</body>
+<script>
+    var sidenavlink2=document.querySelector(".navlink3")
+    function link(){
+        sidenavlink2.style.display="block" 
+    }
+    function closenav(){
+        sidenavlink2.style.display="none"
+    }
+</script>
